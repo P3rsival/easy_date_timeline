@@ -19,6 +19,10 @@ class _NewWidgetExampleState extends State<MultipleUseExample> {
         EasyDateTimeLineMultiplePicker(
           firstDate: DateTime(2024, 3, 18),
           lastDate: DateTime(2024, 5, 20),
+          currentDates: [
+            DateTime(2024, 3, 19),
+            DateTime(2024, 3, 20),
+          ],
           focusedDate: _selectedDates.isEmpty ? null : _selectedDates.last,
           onDateChange: (selectedDate) {
             setState(() {

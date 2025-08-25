@@ -118,6 +118,9 @@ class _DayTimeLinePickerMultipleWidgetState
   @override
   void initState() {
     super.initState();
+    if (widget.currentDates.isNotEmpty) {
+      _selectedDates = List<DateTime>.from(widget.currentDates);
+    }
     // Initialize date formatting for the specified locale
     initializeDateFormatting(widget.locale);
     // Calculate the total extent of each item including padding
