@@ -51,7 +51,6 @@ class SelectedDateWidget extends StatelessWidget {
           locale,
         );
       } else {
-        // TODO: Remove this deprecated code after v1.0.2
         return EasyDateFormatter.customFormat(
           headerProps!.selectedDateFormat.formatter,
           date,

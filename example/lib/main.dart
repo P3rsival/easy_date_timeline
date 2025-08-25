@@ -1,3 +1,4 @@
+import 'package:example/examples/multiple_use_date_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_date_timeline/easy_date_timeline.dart';
 
@@ -53,6 +54,7 @@ class MyHomePage extends StatelessWidget {
           children: [
             SimpleUseExample(),
             ThemingExample(),
+            MultipleUseExample(),
           ],
         ),
       ),

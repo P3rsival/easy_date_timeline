@@ -33,7 +33,7 @@ class _NewWidgetExampleState extends State<SimpleUseExample> {
         EasyDateTimeLinePicker(
           controller: _controller,
           firstDate: DateTime(2024, 3, 18),
-          lastDate: DateTime(2030, 3, 18),
+          lastDate: DateTime(2024, 3, 20),
           focusedDate: _selectedDate,
           onDateChange: (selectedDate) {
             setState(() {
